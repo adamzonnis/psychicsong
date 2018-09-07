@@ -1,0 +1,3 @@
+function pop(theimage){
+	window.open( "<iframe width='425' height='350' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='http://maps.google.ca/maps?q=red+gate+victoria&amp;oe=utf-8&amp;client=firefox-a&amp;ie=UTF8&amp;hl=en&amp;hq=red+gate&amp;hnear=Victoria,+BC&amp;z=14&amp;iwloc=A&amp;cid=6373182393374486061&amp;ll=48.43985,-123.334751&amp;output=embed'></iframe><br /><small><a href='http://maps.google.ca/maps?q=red+gate+victoria&amp;oe=utf-8&amp;client=firefox-a&amp;ie=UTF8&amp;hl=en&amp;hq=red+gate&amp;hnear=Victoria,+BC&amp;z=14&amp;iwloc=A&amp;cid=6373182393374486061&amp;ll=48.43985,-123.334751&amp;source=embed' style='color:#0000FF;text-align:left'>View Larger Map</a></small>', "top=0,left=100,width=500,height=500");
+} 

@@ -1,0 +1,5 @@
+<p>Hi Andrea,<br />This is where you can currently upload your own text.</p>
+<p>We can make this happen anywhere on your page now, so let me know if you would like it elsewhere.</p>
+<p>Cheers,<br />mark</p>
+<hr />
+<p>With a little training you could easily add your own information and format it nicely.</p>

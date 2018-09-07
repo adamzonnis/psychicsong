@@ -1,0 +1,407 @@
+﻿  mark@omnibusdesign.ca  | My favorites  | English  | Sign out
+Google Code
+e.g. "ajax apis" or "open source"
+Google Maps API
+
+    * Home
+    * Docs
+    * FAQ
+    * Articles
+    * Blog
+    * Group
+    * Terms
+
+    * Sign up for an API key
+    * Create a KML Sitemap
+
+    *
+      Maps API
+          o Home Page
+          o Documentation
+
+    *
+      Maps API for Flash
+          o Home Page
+          o Documentation
+
+    *
+      Maps Data API
+          o Home Page
+          o Documentation
+
+    *
+      Mapplets API
+          o Home Page
+          o Documentation
+
+    *
+      Google Static Maps API
+          o Developer's Guide
+
+Google Maps for Enterprise
+
+Includes enterprise licensing and support
+Sign Up for the Google Maps API
+
+The Google Maps API lets you embed Google Maps in your own web pages. A single Maps API key is valid for a single "directory" or domain. See this FAQ for more information. You must have a Google Account to get a Maps API key, and your API key will be connected to your Google Account.
+
+Here are some highlights from the terms for those of you who aren't lawyers:
+
+    * There is no limit on the number of page views you may generate per day using the Maps API. See this FAQ for more information.
+    * There is a limit on the number of geocode requests per day. See this FAQ for more information.
+    * The Maps API does not include advertising. If we ever decide to change this policy, we will give you at least 90 days notice via the announcements lists.
+    * If you use other APIs in conjunction with the Maps API, you should also review the terms for the other APIs. Note in particular that the GoogleBar in the JS Maps API uses the AJAX Search API, and that API has its own terms.
+    * Your service must be freely accessible to end users. To use Google mapping technology in other types of applications, please use Google Maps API Premier. See this FAQ for more information.
+    * You may not alter or obscure the logos or attribution on the map.
+    * You must indicate whether your application is using a sensor (such as a GPS locator) to determine the user's location.
+    * You may use the API (except for the Static Maps API) in websites or in software applications. For websites, please sign up with the URL where your implementation can be found. For other software applications, please sign up with the URL of the page where your application can be downloaded.
+    * Google will upgrade the APIs periodically. To be notified of updates, please subscribe to the announcements lists.
+    * Remember that we reserve the right to suspend or terminate your use of the service at any time, so please read through the FAQ and forum posts to decide whether your site meets the Terms of Use before you begin API integration.
+
+Last updated: November 26, 2008
+
+
+      1. Your relationship with Google.
+
+      1.1 Use of the Service is Subject to these Terms. Your use of any of the Google Maps/Google Earth APIs (referred to in this document as the "Maps API(s)" or the "Service") is subject to the terms of a legal agreement between you and Google Inc., whose principal place of business is at 1600 Amphitheatre Parkway, Mountain View, California 94043, United States ("Google"). This legal agreement is referred to as the "Terms".
+
+      1.2 The Terms include Google's Legal Notices and Privacy Policy.
+
+      (a) Unless otherwise agreed in writing with Google, the Terms will include the following:
+      (i) the terms and conditions set forth in this document (the "Maps APIs Terms");
+      (ii) the Legal Notices; and
+      (iii) the Privacy Policy.
+
+      (b) Before you use the Maps APIs, you should read each of the documents comprising the Terms, and print or save a local copy for your records.
+
+      1.3 Use of Other Google Services and Additional Terms. If you use the Maps APIs in conjunction with any other Google products or services, including any other Google API, (collectively, the Service and all other Google products and services are referred to as the "Google Services"), your agreement with Google will also include the terms applicable to those Google Services. All of these are referred to as the "Additional Terms." If Additional Terms apply, they will be accessible to you either within or through your use of the applicable Google Services. If there is any contradiction between the Additional Terms and the Maps APIs Terms, then the Maps APIs Terms will take precedence only as it relates to the Maps APIs, and not to any other Google Services.
+
+      1.4 Precedence of Maps APIs Terms. If there is any contradiction between the Maps APIs Terms and other Maps API-related documents (including but not limited to the Maps APIs Documentation), then the Maps APIs Terms will take precedence.
+
+      1.5 Changes to the Terms. Google reserves the right to make changes to the Terms from time to time. When these changes are made, Google will make a new copy of the Terms available at http://code.google.com/apis/maps/terms.html. You understand and agree that if you use the Service after the date on which the Terms have changed, Google will treat your use as acceptance of the updated Terms. If a modification is unacceptable to you, you may terminate the agreement by ceasing use of the Maps APIs.
+
+      2. Accepting the Terms.
+
+      2.1 Clicking to Accept or Using the Maps APIs. In order to use the Maps APIs you must agree to the Terms. You can accept the Terms by:
+
+      (a) clicking to accept or agree to the Terms, where this option is made available to you by Google in the user interface for the Service; or
+      (b) using the Maps APIs. In this case, you understand and agree that Google will treat your use of the Maps APIs as acceptance of the Terms from that point onwards.
+
+      2.2 U.S. Law Restrictions. You may not use the Maps APIs and may not accept the Terms if you are a person barred from using the Service under the laws of the United States.
+
+      2.3 Authority to Accept the Terms. You represent that you have full power, capacity and authority to accept these Terms. If you are accepting on behalf of your employer or another entity, you represent that you have full legal authority to bind your employer or such entity to these Terms. If you don't have the legal authority to bind, please ensure that an authorized person from your entity consents to and accepts these Terms.
+
+      3. Privacy and Personal Information.
+
+      3.1 Google's Privacy Policy. For information about Google's data protection practices, please read Google's privacy policy at http://www.google.com/privacy.html. This policy explains how Google treats your personal information and protects your privacy when you use the Service.
+
+      3.2 Use of Your Data under Google's Privacy Policy. You agree to the use of your data in accordance with Google's privacy policy.
+
+      3.3 Your Privacy Policy. You must post and abide by an appropriate privacy policy, and will comply with all applicable laws relating to the collection of information from visitors to Your Maps API Implementation in accordance with Section 9.2 below.
+
+      4. Provision of Service by Google.
+
+      4.1 Google's Subsidiaries and Affiliates. Google has subsidiaries and affiliated legal entities around the world ("Subsidiaries and Affiliates"). Sometimes, these companies will be providing the Service to you on behalf of Google itself. You acknowledge and agree that Subsidiaries and Affiliates will be entitled to provide the Service to you.
+
+      4.2 Limits on Your Use of the Service. You acknowledge and agree that Google may impose or adjust the limit on the number of transactions you may send or receive through the Service; such fixed upper limits may be set by Google at any time, at Google's discretion.
+
+      4.3 Advertising. The Service currently does not include advertising in the maps images. However, Google reserves the right to include advertising in the maps images provided to you through the Service, but will provide you with ninety (90) days notice prior to the commencement of advertising in the maps images. Such notice may be provided on relevant Google websites, including but not limited to the Google Geo Developers Blog and the Google Maps API Group (or such successor URLs that Google may designate from time to time). During that 90 day period, you may terminate your use of the Service, or provide notice of your refusal to accept advertising in the maps images in accordance with Google's policies and procedures for providing such notice (which Google may make available from time to time in its sole discretion).
+
+      4.4 Changes to the Service: Termination of the Service.
+
+      (a) If Google in its discretion chooses to cease providing the current version of the Service whether through discontinuation of the Service or by upgrading the Service to a newer version, the current version of the Service will be deprecated and become the Deprecated Version of the Service. Google will issue an announcement if the current version of the Service will be deprecated. For a period of 3 years after an announcement (the “Deprecation Period”), Google will use commercially reasonable efforts to continue to operate the Deprecated Version of the Service and to respond to problems with the Deprecated Version of the Service deemed by Google in its discretion to be critical. During the Deprecation Period, no new features will be added to the Deprecated Version of the Service.
+
+      (b) Google reserves the right in its discretion to cease providing all or any part of the Deprecated Version of the Service immediately without any notice if:
+      (i) you have breached any provision of the Terms (or have acted in manner that clearly shows that you do not intend to, or are unable to comply with the provisions of the Terms); or
+
+      (ii) Google is required to do so by law (for example, due to a change to the law governing the provision of the Deprecated Version of the Service); or
+
+      (iii) the Deprecated Version of the Service relies on data or services provided by a third party partner and the relationship with such partner (x) has expired or been terminated or (y) requires Google to change the way Google provides the data or services through the Deprecated Version of the Service; or
+
+      (iv) providing the Deprecated Version of the Service could create a substantial economic burden as determined by Google in its reasonable good faith judgment; or
+
+      (v) providing the Deprecated Version of the Service could create a security risk or material technical burden as determined by Google in its reasonable good faith judgment.
+      (c) Google is constantly innovating in order to provide the best possible experience for its users. At any time prior to discontinuing the current version of the Service or upgrading to a new version of the Service, Google may, in its discretion as part of this continuing innovation, label certain features or functionality of the Service as "experimental." Additionally, Google may elect to offer a version of the Service within Google Labs. This Section 4.4 of the Terms will not apply to any features or functionality labeled as "experimental," or to any version of the Service offered within Labs.
+
+      5. Your Google Account.
+
+      5.1 Signing Up for a Google Account. In order to access the Service, you must have a Google Account. You agree that any information you give to Google in connection with your Google Account or your continued use of the Service will always be accurate, correct and up to date.
+
+      5.2 Account Key. After supplying Google with your account information and the URL of your Maps API Implementation, and accepting the Terms, you will be issued an alphanumeric key assigned to you by Google that is uniquely associated with your Google Account and the URL of your Maps API Implementation. Your Maps API Implementation must import the Google Maps APIs using this key as described in the Maps APIs Documentation, and Google will block requests with an invalid key or invalid URL. You may only obtain and use a key in accordance with these Terms and the Maps APIs Documentation.
+
+      5.3 Your Passwords and Account Security. You agree that you will be solely responsible to Google for your use of the Service. If you become aware of any unauthorized use of your password, your account, or your key, you agree to notify Google immediately.
+
+      6. Google's Proprietary Rights. You acknowledge and agree that Google (or Google's licensors and their suppliers, as applicable) own all legal right, title and interest in and to the Service and Content, including any intellectual property rights that subsist in the Service and Content (whether those rights happen to be registered or not, and wherever in the world those rights may exist).
+
+      7. Licenses from Google to You.
+
+      7.1 Definitions.
+
+      (a) "Brand Features" means the trade names, trademarks, service marks, logos, domain names, and other distinctive brand features of each party, respectively, as secured by such party from time to time.
+      (b) "Content" means any content provided through the Service (whether created by Google or its third party licensors), including map and terrain data, photographic imagery, traffic data, or any other content.
+      (c) "Maps API Implementation" means a software application or website that uses the Maps APIs to obtain and display Content in conjunction with Your Content, according to these Terms.
+      (d) "Your Content" means any content that you provide in your Maps API Implementation, including data, images, video, or software. Your Content does not include the Content.
+
+      7.2 Service License. Subject to these Terms (including but not limited to Section 9 (License Requirements)), Google gives you a personal, worldwide, royalty-free, non-assignable and non-exclusive license to use the Service as provided by Google, in the manner permitted by the Terms.
+
+      7.3 Content License. Subject to these Terms (including but not limited to Section 9 (License Requirements)), Google gives you a personal, worldwide, royalty-free, non-assignable and non-exclusive license to access, use, publicly perform and publicly display the Content in your Maps API Implementation, as the Content is provided in the Service, and in the manner permitted by the Terms. Specifically, you understand the following:
+
+      (a) Content (including but not limited to map data, traffic, and directions) is provided for planning purposes only. You may find that weather conditions, construction projects, closures, or other events may cause road conditions or directions to differ from the results depicted in the Content. You should exercise judgment in your use of the Content.
+      (b) Certain Content is provided under license from third parties, including Tele Atlas B.V. ("Tele Atlas"), and is subject to copyright and other intellectual property rights owned by or licensed to Tele Atlas and/or such third parties. You may be held liable for any unauthorized copying or disclosure of this content. Your use of Tele Atlas map data is subject to additional restrictions located in the Legal Notices page.
+
+      7.4 Brand Features License.
+
+      (a) Grant. Subject to these Terms, Google gives you a personal, worldwide, royalty-free, non-assignable, non-transferable, non-sublicenseable, and non-exclusive license to display Google's Brand Features solely for the purpose of promoting or advertising your authorized use of the Service in accordance with this Section and for the purpose of fulfilling your obligations under the Terms.
+
+      (b) Restrictions. In using Google Brand Features, you will not:
+      (i) display a Google Brand Feature in any manner that implies a relationship or affiliation with, sponsorship, or endorsement by Google, other than your use of the Service, or that can be reasonably interpreted to suggest editorial content has been authored by, or represents the views or opinions of Google or Google personnel;
+      (ii) use Google Brand Features to disparage Google, its products, or the Google Services;
+      (iii) display a Google Brand Feature in your Maps API Implementation or on your site if your Maps API Implementation or site contains or displays adult content or promotes illegal activities, gambling, or the sale of tobacco or alcohol to persons under twenty-one (21) years of age;
+      (iv) have the Google logo as the largest logo in your Maps API Implementation or on your website (except as displayed in the map image itself);
+      (v) display a Google Brand Feature as the most prominent element in your Maps API Implementation on any page of your website;
+      (vi) display a Google Brand Feature in a manner that is misleading, defamatory, infringing, libelous, disparaging, obscene or otherwise objectionable to Google;
+      (vii) display a Google Brand Feature in your Maps API Implementation or on a site that violates any law or regulation; or
+      (viii) remove, distort or alter any element of a Google Brand Feature (this includes squeezing, stretching, inverting, discoloring, etc.).
+
+      (c) No Further License Grant; No Challenges. Except as set forth in this Section, nothing in the Terms will grant or will be deemed to grant you any right, title or interest in or to Google's Brand Features. All use by you of Google's Brand Features (including any goodwill associated therewith) will inure to the benefit of Google. At no time during or after the Term will you challenge or assist others to challenge the Brand Features of Google (except to the extent such restriction is prohibited by law) or the registration thereof by Google, nor will you attempt to register any Brand Features (including domain names) that are confusingly similar in any way (including but not limited to, sound, appearance and spelling) to those of Google.
+
+      (d) Proprietary Rights Notices. You agree that you will not remove, obscure, or alter any proprietary rights notices (including copyright and trademark notices, Terms of Use links, or Brand Features) that may be affixed to or provided through the Service. Where such notices are not affixed within the Service, you agree to display such notices according to the Maps APIs Documentation.
+
+      7.5 U.S. Government Restricted Rights. If the Service or Content is being used or accessed by or on behalf of the United States government, such use is subject to additional terms located in the "Government End Users" section of our Legal Notices page.
+
+      7.6 Determination of Compliance. Google reserves the sole right and discretion to determine whether your use of the Service, Content, and Brand Features is in compliance with these Terms.
+
+      8. Permitted Uses under Google's Licenses.
+
+      8.1 Permitted Purposes. You agree to use the Service only for purposes:
+
+      (a) that are permitted by the Terms;
+      (b) that are permitted by any applicable third party contract, law, or regulation in the relevant jurisdictions; and
+      (c) that comply with all applicable policies or guidelines made available by Google.
+
+      8.2 Maps APIs Documentation and FAQs. For further guidance regarding use of the Content, please see the Maps APIs Documentation and FAQs. If there is any conflict between these Terms and the Maps API Documentation or FAQs, these Terms will control.
+
+      9. License Requirements. Google's licenses above are subject to your adherence to the following requirements:
+
+      9.1 Free, Public Accessibility to Your Maps API Implementation. Your Maps API Implementation must be generally accessible to users without charge. You may require users to log in to your Maps API Implementation if you do not require users to pay a fee. Unless you have entered into a separate written agreement with Google or obtained Google's written permission, your Maps API Implementation must not:
+
+      (a) require a fee-based subscription or other fee-based restricted access; or
+      (b) operate only behind a firewall or only on an internal network (except during the development and testing phase).
+
+      9.2 Reporting. You must implement those reporting mechanisms that Google has set forth and may update from time to time in these Terms and in the Maps APIs Documentation. For example, as specified in the Maps API Documentation, you agree to provide reports to Google if your Maps API Implementation enables a device to detect its own location through use of a sensor (including but not limited to GPS, cell triangulation, WiFi or similar functionality) to display the location of the device on a map or to calculate a route.
+
+      9.3 End User Terms and Privacy Policy. If you develop a Maps API Implementation for use by other users, you must:
+
+      (a) display to the users of your Maps API Implementation the link to Google's Terms of Use as presented through the Service or described in the Maps APIs Documentation;
+      (b) explicitly state in your Maps API Implementation's terms of use that, by using your Maps API Implementation, your users are agreeing to be bound by Google's Terms of Use; and
+      (c) protect the privacy and legal rights of those users. If your Maps API Implementation enables you or any party to gain access to information about users of the Service, including but not limited to personally identifying information or non-personally identifying usage information, you or the party receiving the information must make publicly available, and must abide by, an appropriate privacy policy in your Maps API Implementation.
+
+      9.4 Attribution Content provided to you through the Service may contain the trade names, trademarks, service marks, logos, domain names, and other distinctive brand features of Google, its partners, or other third party rights holders of content indexed by Google. You may not delete or in any manner alter these trade names, trademarks, service marks, logos, domain names, and other distinctive brand features.
+
+      9.5 Responsibility for Breaches. You agree that you are solely responsible for (and that Google has no responsibility to you or to any third party for) any breach of your obligations under the Terms and for the consequences (including any loss or damage which Google may suffer) of any such breach.
+
+      10. License Restrictions. Except as expressly permitted under the Terms, or unless you have received prior written authorization from Google (or, as applicable, from the provider of particular Content), Google's licenses above are subject to your adherence to all of the restrictions below. Except as explicitly permitted in Section 7 or the Maps APIs Documentation, you must not (nor may you permit anyone else to):
+
+      10.1 access or use the Service or any Content through any technology or means other than those provided in the Service, or through other explicitly authorized means Google may designate;
+
+      10.2 copy, translate, modify, create a derivative work of, or publicly display any Content or any part thereof (for example, the following are prohibited: (a) creating server-side modification of map tiles; and (b) stitching multiple static map images together to display a map that is larger than permitted in the Maps APIs Documentation);
+
+      10.3 pre-fetch, cache, or store any Content, except that you may store limited amounts of Content for the purpose of improving the performance of your Maps API Implementation if you do so temporarily, securely, and in a manner that does not permit use of the Content outside of the Service;
+
+      10.4 charge users or any other third party any fee for the use of the Maps API Implementation, the Service, or the Content, unless you have entered into a separate written agreement with Google or obtained Google's written permission to do so (but if you are a consultant who creates or hosts Maps API Implementations for third party customers, you may charge such customers a fee for your consulting or hosting services);
+
+      10.5 reverse engineer, decompile or otherwise attempt to extract the source code of the Service or any part thereof, unless this is expressly permitted or required by applicable law;
+
+      10.6 use the Service in a manner that gives you or any other person access to mass downloads or bulk feeds of any Content, including but not limited to numerical latitude or longitude coordinates, imagery, and visible map data;
+
+      10.7 delete, obscure, or in any manner alter any warning, notice (including but not limited to any copyright or other proprietary rights notice), or link that appears in the Service or the Content;
+
+      10.8 use the Static Maps API other than in an implementation in a web browser;
+
+      10.9 use the Service or Content with any products, systems, or applications for or in connection with:
+
+      (a) real time navigation or route guidance, including but not limited to turn-by-turn route guidance that is synchronized to the position of a user's sensor-enabled device;
+      (b) any systems or functions for automatic or autonomous control of vehicle behavior; or
+      (c) dispatch, fleet management, business asset tracking, or similar enterprise applications (the Google Maps APIs can be used to track assets (such as cars, buses or other vehicles) as long as the tracking application is made available to the public without charge. For example, you may offer a free, public Maps API Implementation that displays real-time public transit or other transportation status information. If your Maps API Implementation is deployed internally or you are charging for use of your Maps API Implementation, please contact the Google Maps API Premier sales team for more information);
+
+      10.10 print more than 5,000 copies of sales collateral materials containing a screenshot of Tele Atlas Content for purposes of commercial sales lead generation ("Direct Marketing") or incorporate Tele Atlas Content as a core part of printed matter (such as printed maps or guide books) that you redistribute for a fee (you must contact Tele Atlas to obtain a direct license if you desire to do either of the above);
+
+      10.11 offer a batch geocoding service that uses Content contained in any Google Services;
+
+      10.12 use or display the Content without a corresponding Google map, unless you are explicitly permitted to do so in the Maps APIs Documentation, the Street View API Documentation, or through written permission from Google (for example, you must not use geocodes obtained through the Service except in conjunction with a Google map, but the Street View API Documentation explicitly permits you to display Street View imagery without a corresponding Google map); or
+
+      10.13 hide or mask from Google the identity of your service as it uses the Service, including by failing to follow the identification conventions listed in the Maps APIs Documentation; or
+
+      10.14 violate any policies in the Maps APIs Documentation or violate Google's Software Principles (available at http://www.google.com/intl/en/corporate/software_principles.html or such successor URL as Google may provide) and other policies as Google may develop from time to time, including but not limited to the Google policies below, under which you agree not to:
+
+      (a) defame, abuse, harass, stalk, threaten or otherwise violate the legal rights (such as rights of privacy and publicity) of others;
+      (b) upload, post, transmit or otherwise make available any inappropriate, defamatory, obscene, or unlawful content;
+      (c) upload, post, transmit or otherwise make available any content that infringes any patent, trademark, copyright, trade secret or other proprietary right of any party, unless you are the owner of the rights, or have the permission of the owner or other legal justification to use such content;
+      (d) upload, post, transmit or otherwise make available messages that promote pyramid schemes, chain letters, or disruptive commercial messages or advertisements;
+      (e) upload, post, email, transmit or otherwise make available any other content, message, or communication prohibited by applicable law, the Terms or any applicable Service policies or guidelines;
+      (f) download any file posted by another that you know, or reasonably should know, cannot legally be distributed in such manner;
+      (g) impersonate another person or entity, or falsify or delete any author attributions or labels of the origin or source of Content, or other material;
+      (h) restrict or inhibit any other user from using and enjoying the Service or any other Google Services;
+      (i) delete, obscure, or fail to display the Terms of Use link as presented through the Service or described in the Maps APIs Documentation;
+      (j) delete, obscure, or in any manner alter any warning, notice (including but not limited to any copyright or other proprietary rights notice), or link that appears in the Service or the Content;
+      (k) interfere with or disrupt the Google Services, servers, or networks connected to the Google Services, or disobey any requirements, procedures, policies, or regulations of networks connected to the Google Services;
+      (l) use any robot, spider, site search/retrieval application, or other device to retrieve or index any portion of the Google Services or Content or collect information about users for any unauthorized purpose;
+      (m) display content in your Maps API Implementation that falsely expresses or implies that such content is sponsored or endorsed by Google;
+      (n) create user accounts by automated means or under false or fraudulent pretenses, or obtain or attempt to obtain multiple keys for the same URL;
+      (o) promote or provide instructional information about illegal activities;
+      (p) promote physical harm or injury against any group or individual; or
+      (q) transmit any viruses, worms, defects, Trojan horses, or any items of a destructive nature.
+
+      11. Licenses from You to Google.
+
+      11.1 Content License. Google claims no ownership over Your Content, and you retain copyright and any other rights you already hold in Your Content. By submitting, posting or displaying Your Content in the Service, you give Google a perpetual, irrevocable, worldwide, royalty-free, and non-exclusive license to reproduce, adapt, modify, translate, publicly perform, publicly display and distribute Your Content through the Service and as search results through Google Services. This license is solely for the purpose of enabling Google to operate the Service, to promote the Service (including through public presentations), and to index and serve such content as search results through Google Services. If you are unable or unwilling to provide such a license to Your Content, please see the FAQ for information on configuring your Maps API Implementation to opt out.
+
+      11.2 Brand Features License. You grant to Google a nontransferable, nonexclusive license during the Term to use Your Brand Features to advertise that you are using the Service.
+
+      11.3 Authority to Grant Licenses. You confirm and warrant to Google that you have all the rights, power and authority necessary to grant the above licenses.
+
+      12. Terminating this Agreement.
+
+      12.1 The Terms will continue to apply until terminated by either you or Google as set out below.
+
+      12.2 You may terminate your legal agreement with Google by discontinuing your use of the Service at any time, and removing the Maps API code from your Maps API Implementation. You do not need to specifically inform Google when you stop using the Service.
+
+      12.3 Google may, at any time, terminate its legal agreement with you or cease providing all or any part of the Service immediately without any notice if:
+
+
+      (a) you have breached any provision of the Terms (or have acted in manner that clearly shows that you do not intend to, or are unable to comply with the provisions of the Terms); or
+
+      (b) Google is required to do so by law (for example, due to a change to the law governing the provision of the Service); or
+
+      (c) the Service relies on data or services provided by a third party partner and the relationship with such partner (x) has expired or been terminated or (y) requires Google to change the way Google provides the data or services through the Service; or
+
+      (d) providing the Service could create a substantial economic burden as determined by Google in its reasonable good faith judgment; or
+
+      (e) providing the Service could create a security risk or material technical burden as determined by Google in its reasonable good faith judgement.
+
+
+      12.4 Nothing in this Section will affect Google's rights regarding provision of the Service under Section 4 of the Terms.
+
+      12.5 When this legal agreement comes to an end, those Terms that by their nature are intended to continue indefinitely will continue to apply, including but not limited to: Sections 6 (Google's Proprietary Rights); 12.4 and 12.5 (Terminating this Agreement); 13 (Exclusion of Warranties); 14 (Limitation of Liability); 15 (Indemnity); and 19 (General Legal Terms).
+
+      13. EXCLUSION OF WARRANTIES.
+
+      13.1 NOTHING IN THESE TERMS, INCLUDING SECTIONS 13 AND 14, WILL EXCLUDE OR LIMIT GOOGLE'S WARRANTY OR LIABILITY FOR LOSSES THAT MAY NOT BE LAWFULLY EXCLUDED OR LIMITED BY APPLICABLE LAW. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF CERTAIN WARRANTIES OR CONDITIONS OR THE LIMITATION OR EXCLUSION OF LIABILITY FOR CERTAIN TYPES OF LOSS OR DAMAGES. ACCORDINGLY, ONLY THE LIMITATIONS THAT ARE LAWFUL IN YOUR JURISDICTION WILL APPLY TO YOU, AND GOOGLE.S LIABILITY WILL BE LIMITED TO THE MAXIMUM EXTENT PERMITTED BY LAW.
+
+      13.2 YOU EXPRESSLY UNDERSTAND AND AGREE THAT YOUR USE OF THE SERVICE AND THE CONTENT IS AT YOUR SOLE RISK AND THAT THE SERVICE AND THE CONTENT ARE PROVIDED "AS IS" AND "AS AVAILABLE." IN PARTICULAR, GOOGLE, ITS SUBSIDIARIES AND AFFILIATES, AND ITS LICENSORS AND THEIR SUPPLIERS, DO NOT REPRESENT OR WARRANT TO YOU THAT:
+      (a) YOUR USE OF THE SERVICE WILL MEET YOUR REQUIREMENTS;
+      (b) YOUR USE OF THE SERVICE WILL BE UNINTERRUPTED, TIMELY, SECURE OR FREE FROM ERROR;
+      (c) ANY INFORMATION OBTAINED BY YOU AS A RESULT OF YOUR USE OF THE SERVICE WILL BE ACCURATE OR RELIABLE; AND
+      (d) THAT DEFECTS IN THE OPERATION OR FUNCTIONALITY OF ANY SOFTWARE PROVIDED TO YOU AS PART OF THE SERVICE WILL BE CORRECTED.
+
+      13.3 ANY CONTENT OBTAINED THROUGH THE USE OF THE GOOGLE SERVICES IS DONE AT YOUR OWN DISCRETION AND RISK AND YOU WILL BE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM OR OTHER DEVICE, LOSS OF DATA, OR ANY OTHER DAMAGE OR INJURY THAT RESULTS FROM THE DOWNLOAD OR USE OF ANY SUCH CONTENT.
+
+      13.4 NO ADVICE OR INFORMATION, WHETHER ORAL OR WRITTEN, OBTAINED BY YOU FROM GOOGLE, OR THROUGH OR FROM THE SERVICE OR CONTENT, WILL CREATE ANY WARRANTY NOT EXPRESSLY STATED IN THE TERMS.
+
+      13.5 GOOGLE, ITS LICENSORS AND THEIR SUPPLIERS FURTHER EXPRESSLY DISCLAIM ALL WARRANTIES AND CONDITIONS OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+
+      14. LIMITATION OF LIABILITY.
+
+      14.1 SUBJECT TO SECTION 13.1, YOU EXPRESSLY UNDERSTAND AND AGREE THAT GOOGLE, ITS SUBSIDIARIES AND AFFILIATES, AND GOOGLE.S LICENSORS AND THEIR SUPPLIERS, WILL NOT BE LIABLE TO YOU FOR:
+
+      (a) ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR EXEMPLARY DAMAGES THAT MAY BE INCURRED BY YOU, HOWEVER CAUSED AND UNDER ANY THEORY OF LIABILITY (INCLUDING, BUT NOT BE LIMITED TO, ANY LOSS OF PROFIT (WHETHER INCURRED DIRECTLY OR INDIRECTLY), ANY LOSS OF GOODWILL OR BUSINESS REPUTATION, ANY LOSS OF DATA, COST OF PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES, OR OTHER INTANGIBLE LOSS); OR
+
+      (b) ANY LOSS OR DAMAGE AS A RESULT OF:
+      (i) ANY RELIANCE PLACED BY YOU ON THE COMPLETENESS, ACCURACY OR EXISTENCE OF ANY ADVERTISING, OR AS A RESULT OF ANY RELATIONSHIP OR TRANSACTION BETWEEN YOU AND ANY ADVERTISER OR SPONSOR WHOSE ADVERTISING APPEARS ON THE GOOGLE SERVICES;
+      (ii) ANY CHANGES THAT GOOGLE MAY MAKE TO THE SERVICE, OR ANY PERMANENT OR TEMPORARY CESSATION IN THE PROVISION OF THE SERVICE (OR ANY FEATURES WITHIN THE SERVICE);
+      (iii) THE DELETION OF, CORRUPTION OF, OR FAILURE TO STORE, ANY CONTENT AND OTHER COMMUNICATIONS DATA MAINTAINED OR TRANSMITTED BY OR THROUGH YOUR USE OF THE SERVICE;
+      (iv) YOUR FAILURE TO PROVIDE GOOGLE WITH ACCURATE ACCOUNT INFORMATION; OR
+      (v) YOUR FAILURE TO KEEP YOUR PASSWORD OR ACCOUNT DETAILS SECURE AND CONFIDENTIAL.
+
+      14.2 THE LIMITATIONS ON GOOGLE'S LIABILITY TO YOU IN SECTION 14.1 ABOVE WILL APPLY WHETHER OR NOT GOOGLE, ITS SUBSIDIARIES, AFFILIATES, LICENSORS OR THEIR SUPPLIERS HAVE BEEN ADVISED OF OR SHOULD HAVE BEEN AWARE OF THE POSSIBILITY OF ANY SUCH LOSSES OR DAMAGES.
+
+      15. Indemnity.
+
+      15.1 You hereby agree to indemnify, defend and hold Google, its strategic partners, officers, directors, agents, affiliates, licensors and their suppliers ("the Indemnified Parties") harmless from and against any claim or liability arising out of:
+      (a) your use of the Maps APIs in breach of the Terms or applicable policies;
+      (b) your Maps API Implementation;
+      (c) any use by users of your Maps API Implementation;
+      (d) any claim that your Maps API Implementation or Your Content violates any applicable law, including but not limited to any claim that your Maps API Implementation infringes the rights of a third party.
+
+      15.2 You will cooperate as fully as reasonably required in the defense of any claim. Google reserves the right, at its own expense, to assume the exclusive defense and control of any matter subject to indemnification by you. You acknowledge that damages for improper use of the Maps APIs may be irreparable; therefore, Google is entitled to seek equitable relief, including but not limited to preliminary injunction and injunction, in addition to all other remedies.
+
+      16. Copyright Policies.
+
+      It is Google's policy to respond to notices of alleged copyright infringement that comply with applicable international intellectual property law (including, in the United States, the Digital Millennium Copyright Act) and to terminate the accounts of repeat infringers. Details of Google's policy can be found here.
+
+      17. Other Content.
+
+      17.1 The Service may include hyperlinks to other websites or content or resources. Google has no control over any web sites or resources that are provided by companies or persons other than Google. You acknowledge and agree that Google is not responsible for the availability of any such external sites or resources, and does not endorse any advertising, products or other materials on or available from such websites or resources.
+
+      17.2 You acknowledge and agree that Google is not liable for any loss or damage that may be incurred by you as a result of the availability of those external sites or resources, or as a result of any reliance placed by you on the completeness, accuracy or existence of any advertising, products, or other materials on, or available from, such websites or resources.
+
+      18. Language of the Terms.
+
+      18.1 Where Google has provided you with a translation of the English language version of the Terms, you agree that the translation is provided for your convenience only and that the English language version of the Terms will govern your relationship with Google.
+
+      18.2 If there is any contradiction between the English language version of the Terms and a translation of the Terms, the English language version will take precedence.
+
+      19. General Legal Terms.
+
+      19.1 Notices. You agree that Google may provide you with notices, including those regarding changes to the Terms, by email, regular mail, or postings on the Service.
+
+      19.2 No Waiver. You agree that if Google does not exercise or enforce any legal right or remedy contained in the Terms (or that Google has the benefit of under any applicable law), this will not be taken to be a formal waiver of Google's rights and that those rights or remedies will still be available to Google. Any waiver of any provision of these Terms will be effective only if Google expressly states in a signed writing that it is waiving a specified Term.
+
+      19.3 Severability. If any court of law that has jurisdiction rules that any provision of these Terms is invalid, then that provision will be removed from the Terms without affecting the rest of the Terms. The remaining provisions of the Terms will continue to be valid and enforceable.
+
+      19.4 Third Party Beneficiaries. You acknowledge and agree that each member of the group of companies of which Google is the parent will be third party beneficiaries to the Terms and that such other companies will be entitled to directly enforce, and rely upon, any provision of the Terms that confers a benefit on (or rights in favor of) them. Other than this, no other person or company will be a third party beneficiary to the Terms.
+
+      19.5 Assignment. The Terms may be assigned by Google and will inure to the benefit of Google, its successors and assigns.
+
+      19.6 Governing Law and Jurisdiction; Injunctive Relief. The Terms, and your relationship with Google under the Terms, will be governed by the laws of the State of California, USA, without regard to its conflict of laws provisions. You and Google agree to submit to the exclusive jurisdiction of the courts located in the County of Santa Clara, California, USA, to resolve any legal matter arising from the Terms. Notwithstanding this, you agree that Google will be allowed to apply for injunctive remedies (or an equivalent type of urgent legal relief) in any jurisdiction.
+
+      19.7 Complete Agreement. The Terms constitute the whole legal agreement between you and Google and govern your use of the Service and Content, and completely replace and supersede any prior agreements between you and Google, written or oral, in relation to the Service and Content.
+
+
+	I have read and agree with the terms and conditions (printable version)
+	My web site URL:
+	Tip: Signing up a key for http://yourdomain.com is usually the best practice, as it will work for all subdomains and directories. See this FAQ for more information.
+	
+Thank You for Signing Up for a Google Maps API Key!
+
+Your key is:
+
+ABQIAAAAeMc_ebVmajwU7QIbX8Xe2hRPh944jNF0yzWZZ38-JOlh1SwQDRSQUX77mw1Hy7P9Hk8Dp5XdAFoi_g
+
+Note: for more information on the API key system, consult http://code.google.com/apis/maps/faq.html#keysystem.
+
+How you use your key depends on what Maps API product or service you use. Your key is valid for use within the entire family of Google Maps API solutions. The following examples show how to use your key within the Maps API product family.
+JavaScript Maps API Example
+
+Within the JavaScript Maps API, place the key within the script tag when you load the API:
+
+...
+  // Note: you will need to replace the sensor parameter below with either an explicit true or false value.
+  <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=true_or_false&amp;key=ABQIAAAAeMc_ebVmajwU7QIbX8Xe2hRPh944jNF0yzWZZ38-JOlh1SwQDRSQUX77mw1Hy7P9Hk8Dp5XdAFoi_g" type="text/javascript"></script>
+...
+
+See Loading the Maps API in the JavaScript Maps API documentation for more information.
+Maps API for Flash Example
+
+Within the Maps API for Flash, you may place the key within an MXML declaration, declare it directly within code as a Map.key property, or as a flashVars property within the HTML container. A sample MXML declaration is shown below.
+
+...
+  <maps:Map xmlns:maps="com.google.maps.*" id="map" mapevent_mapready="onMapReady(event)" width="100%" height="100%"
+    key="ABQIAAAAeMc_ebVmajwU7QIbX8Xe2hRPh944jNF0yzWZZ38-JOlh1SwQDRSQUX77mw1Hy7P9Hk8Dp5XdAFoi_g"/>
+...
+
+See Declaring Maps in the Maps API for Flash documentation for more information.
+HTTP Service Example
+
+Within a Maps API HTTP Service, such as the Static Maps API or Geocoding Service, place the key directly in the request URL:
+
+http://maps.google.com/maps/geo?q=1600+Amphitheatre+Parkway,+Mountain+View,+CA&output=json&oe=utf8\
+&sensor=true_or_false&key=ABQIAAAAeMc_ebVmajwU7QIbX8Xe2hRPh944jNF0yzWZZ38-JOlh1SwQDRSQUX77mw1Hy7P9Hk8Dp5XdAFoi_g
+
+Note that for all examples, you must replace the sensor parameter with a valid value, based on whether your application uses a sensor to determine a user's location. Check out the API documentation for more information.
+©2009 Google - Code Home - Terms of Service - Privacy Policy - Site Directory
+
+Google Code offered in: English - Español - 日本語 - 한국어 - Português - Pусский - 中文(简体) - 中文(繁體)
+Find developer products...Find open source projects...
+EnglishEspañolDeutsch日本語한국어Português (Brasil)Pусский中文 (简体)中文 (繁體)
+Suggestions
